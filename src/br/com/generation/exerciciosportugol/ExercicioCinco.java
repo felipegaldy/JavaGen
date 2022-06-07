@@ -1,4 +1,4 @@
-package br.com.generation.exercicios;
+package br.com.generation.exerciciosportugol;
 
 import java.util.Scanner;
 
@@ -21,7 +21,7 @@ public class ExercicioCinco {
 		System.out.println("Digite o valor da nota 3:");
 		nota3 = leia.nextDouble();
 		media = (nota1*2 + nota2*3 + nota3*5) /10;
-		System.out.println(media);
+		System.out.println("A media de notas foi: "+ media);
 		
 
 	}
