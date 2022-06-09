@@ -22,10 +22,13 @@ public class ExemploWhile02 {
 		 */
 		
 		int idade, sexo, personalidade, i=0, masculino=0, feminino=0, outros=0, calmo=0, nervoso=0, agressivo=0, mulherNervosa=0;
-		int homemAgressivo=0, outrosCalmos=0, maisQuarentaN=0, menosDezoitoC=0;
+		int homemAgressivo=0, outrosCalmos=0, maisQuarentaN=0, menosDezoitoC=0, numeroPessoas;
 		Scanner in = new Scanner(System.in);
+		System.out.println("Informe o número de pessoas que serão pesquisadas:");
+		numeroPessoas = in.nextInt();
 		
-		while(i < 150) {
+		
+		while(i < numeroPessoas) {
 			
 			
 			System.out.println("Informe sua idade: ");
@@ -41,9 +44,9 @@ public class ExemploWhile02 {
 					break;
 				case 3:
 					outros++;
-					break;
-					
+					break;		
 			}
+			//saber personalidade
 			System.out.println("Qual seu tipo de personalidade\n1 - Calmo | 2 - Nervoso | 3 - Agressivo");
 			personalidade = in.nextInt();
 			if(personalidade == 1) {
