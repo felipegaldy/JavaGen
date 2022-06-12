@@ -18,10 +18,10 @@ package br.com.generation.classesobjetos;
 		}
 		
 		public void decolar() {
-			System.out.println("O avião está decolando...");
+			System.out.println("O avião " + this.id + " " + this.modelo + " " + this.ano + " está decolando...");
 		}
 		public void pousar() {
-			System.out.println("O avião está pousando...");
+			System.out.println("O avião " + this.id + " " + this.modelo + " " + this.ano + " está pousando...");
 		}
 
 	}
