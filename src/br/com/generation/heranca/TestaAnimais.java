@@ -12,8 +12,9 @@ public class TestaAnimais {
 		auau1.setSom("Auuuuuu au au au Auuuuuuuu");
 		auau1.setVelocidade(25);
 		
-		System.out.println("Som do cachorro...");
+		System.out.println("Som do cachorro..." + auau1.getNome());
 		auau1.som(auau1.getSom());
+		
 		
 		Cavalo pocoto1 = new Cavalo();	
 		
