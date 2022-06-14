@@ -5,10 +5,9 @@ public class Animal {
 	private String nome;
 	private int idade;
 	
-	public String emitirSom(String som) {
-		
+	
+	public String emitirSom(String som) {		
 		return som;
-		
 	}
 	
 	public String getNome() {
