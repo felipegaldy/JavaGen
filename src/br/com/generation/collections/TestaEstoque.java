@@ -2,19 +2,9 @@ package br.com.generation.collections;
 
 import java.util.ArrayList;
 import java.util.Scanner;
-/*
- * Armazenar dados da List
-	Remover dados da list;
-	Atualizar dados da list.
-	Apresentar todos os dados da list.
- */
 
 public class TestaEstoque {
-
-
-
 	public static void main(String[] args) throws InterruptedException {
-		
 		Scanner in = new Scanner(System.in);
 		
 		ArrayList<Estoque> estoqueProdutos = new ArrayList<>();
